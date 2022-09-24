@@ -77,11 +77,11 @@ export class Payflare {
     webhooks: Webhooks
     constructor(api_secet: string) {
         this.api = axios.create({
-            baseURL: 'https://api.payflare.io/v1',
+            baseURL: 'https://api.payflare.io/',
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json',
-                'Authorization': `Token ${api_secet}`
+                'api-auth': `Token ${api_secet}`
             },
             validateStatus: null
         });
