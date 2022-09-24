@@ -1,0 +1,27 @@
+{
+  "name": "payflare",
+  "version": "0.0.1",
+  "description": "Payflare.io JS & TS library",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https//github.com/payflare/payflare.js"
+  },
+  "keywords": [
+    "Payflare",
+    "payflare.io",
+    "payflare.js"
+  ],
+  "author": "Payflare",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.19",
+    "typescript": "^4.8.3"
+  }
+}
