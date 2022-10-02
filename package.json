@@ -1,6 +1,6 @@
 {
   "name": "payflare",
-  "version": "0.0.5.1",
+  "version": "0.0.6",
   "description": "Payflare.io JS & TS library",
   "main": "lib/index.js",
   "scripts": {
